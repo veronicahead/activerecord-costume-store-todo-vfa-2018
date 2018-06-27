@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.datetime "updated_at", null: false
   end
 
+<<<<<<< HEAD
   create_table "haunted_houses", force: :cascade do |t|
     t.string "name"
     t.string "location"
@@ -46,4 +47,6 @@ ActiveRecord::Schema.define(version: 3) do
     t.datetime "updated_at", null: false
   end
 
+=======
+>>>>>>> 3f46fb4462cfb62eaa4c78479dcadd037dc07f73
 end
